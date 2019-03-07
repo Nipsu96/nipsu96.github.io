@@ -1,0 +1,61 @@
+.Main{
+    display: flex;
+    justify-content: center;
+}
+
+.Eka{
+    height: 200px;
+    width: 300px;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/300px-Flag_of_Norway.svg.png);
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25px;
+   padding-top: 100px;
+    background-size: cover;
+    color: black;
+    margin-top: 100px;
+}
+
+.Toka{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+   padding-top: 100px;
+   background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/250px-Flag_of_Denmark.svg.png);
+    background-size: cover;
+    border-color: black;
+    margin-top: 100px; 
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.Kolmas{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+   padding-top: 100px;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/250px-Flag_of_Sweden.svg.png);
+   background-size: cover;
+   background-position: 17% 60%;
+   border-color: black;
+   margin-top: 100px; 
+}
+
+.otsikko, .alaotsikko{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+}
+
+body{
+    background-image: url(https://www.incimages.com/uploaded_files/image/970x450/getty_583734066_335273.jpg);
+    background-size: cover;
+}

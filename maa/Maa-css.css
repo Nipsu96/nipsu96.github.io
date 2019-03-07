@@ -1,0 +1,73 @@
+h1{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color:tomato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+th{
+    color:tomato;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table,td,th{
+    border: 1px black;
+    border-collapse:collapse;
+    background-color: lavenderblush;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.teksti1 {
+    color:black;
+    font-weight: bold;
+}
+.navbar{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbutton{
+    display: inline-block;
+    padding:10px;
+    background-color:palevioletred;
+    font-weight:bold;
+    color: black;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: thistle;
+}
+
+.otsikko{
+    text-align: center;
+
+}
+
+#main{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#basicinfo{
+    justify-content: right;
+    justify-content: flex-end;
+}
+
+aside{
+    float: right;
+}
+
+caption{
+    font-size: 30px
+}
