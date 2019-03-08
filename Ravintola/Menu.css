@@ -1,0 +1,77 @@
+header { grid-area: header; }
+nav{ grid-area: aside; }
+article{ grid-area: main; }
+footer{ grid-area: footer;}
+
+body {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'aside main main main main'
+  'aside main main main main '
+  'aside footer footer footer footer';
+  grid-gap: 10px;
+  grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: auto 1fr auto;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding: 10px;
+  background-image: url("lounas2.jpg"); 
+}
+
+header,nav,article{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.Lounas{
+font-weight: bold;
+}
+
+input[type=text],input[type="number"],textarea[name="message"]{
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+input[type="submit"]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    background-image: none;
+    background-color: rgb(188, 238, 255);
+    grid-template-areas:
+    'header header '
+    'aside aside'
+  'main main '
+  'footer footer';
+  grid-gap: 10px;
+}
+}
+@media screen and (max-width: 480px){
+  body{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(151, 188, 223);
+    padding: 3px;
+    }
+}
+
+input{
+ margin:0 0 0 auto;
+}
