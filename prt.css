@@ -1,10 +1,6 @@
 .carousel-item{
-    height: 700px;
+    height: 500px;
     background-color: aliceblue;
-}
-.carousel-caption {
-    color:black;
-
 }
 
 body{
@@ -13,10 +9,10 @@ body{
 }
 
 .jumbotron {
-    background-image: url("kuvat/koti.jpg");
+    background-image: url("kuvat/koti2.jpg");
     background-size: cover;
   }
 
   .card{
-      margin: 10px;
+      margin:5%;
   }
