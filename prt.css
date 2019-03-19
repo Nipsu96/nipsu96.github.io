@@ -1,0 +1,22 @@
+.carousel-item{
+    height: 700px;
+    background-color: aliceblue;
+}
+.carousel-caption {
+    color:black;
+
+}
+
+body{
+    margin: 50px;
+    background-image:linear-gradient(white,LightCyan,PaleTurquoise);
+}
+
+.jumbotron {
+    background-image: url("kuvat/koti.jpg");
+    background-size: cover;
+  }
+
+  .card{
+      margin: 10px;
+  }
